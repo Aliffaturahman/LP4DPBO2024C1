@@ -35,9 +35,23 @@ Memiliki 4 atribut yaitu namaGarasi, luasGarasi, motorcycleList, dan carList. Un
 Memiliki 3 atribut yaitu kapasitas, jumlahKendaraanSaatIni dan garageList. Untuk garageList merupakan array of object, yang mana dia adalah list yang dapat menampung beberapa objek di dalamnya. Kelas ini ber-composite dengan kelas course.
         
 ## Penjelasan Alur
-Dengan menggunakan *hardcode*, maka program tidak perlu dijalankan secara manual, semua scan dilakukan di main dengan mengisikan data di bagian class Motorcycle, Car, dan juga Garage. Setelah semua sudah terisi dilanjutkan dengan menambahkan kendaraan kedalam salah satu parkiran yang masih kosong. Program akan berjalan dengan memasukan data dari kendaraan motor dan juga mobil ke dalam garasi. 
+Dengan menggunakan *hardcode*, maka program tidak perlu dijalankan secara manual, semua scan dilakukan di main dengan mengisikan data di bagian class Motorcycle, Car, Garage, dan juga ParkingLot. Setelah semuanya sudah terisi dilanjutkan dengan menambahkan kendaraan (mobil atau motor) kedalam salah satu garasi yang masih kosong. Program akan berjalan dengan memasukan data dari kendaraan motor dan juga mobil ke dalam garasi yang menyesuaikan berdasarkan luas garasi, kondisi tempat parkir saat ini seperti total tempat parkir yang masih tersedia dan jumlah kendaraan saat ini yang sudah parkir di dalam garasi. 
 
 ## Dokumentasi
-1. Tampilan Output Program
+Tampilan Output Program (Menggunakan Bahasa C++)
 
-![Tampilan Output](https://github.com/Aliffaturahman/LP4DPBO2024C1/assets/100842759/ef36383b-638c-4770-ae40-3d6479299bd4)
+1. Car Information
+
+![1 - Car Information](https://github.com/Aliffaturahman/LP4DPBO2024C1/assets/100842759/a66ae342-2b78-4b00-8790-e024e23ed2de)
+
+2. Motorcycle Information
+   
+![2 - Motorcycle Information](https://github.com/Aliffaturahman/LP4DPBO2024C1/assets/100842759/c99910fa-a3b0-48bd-841a-4b24865e70ac)
+
+3. Garage Information
+   
+![3 - Garage Information](https://github.com/Aliffaturahman/LP4DPBO2024C1/assets/100842759/5b99a905-be04-452f-adf5-081339682d2a)
+
+4. Parking Lot Information
+   
+![4 - Parking Lot Information](https://github.com/Aliffaturahman/LP4DPBO2024C1/assets/100842759/6d72b6a6-fc52-4b2e-83ed-23d738ec50a5)
